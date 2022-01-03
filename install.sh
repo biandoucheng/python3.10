@@ -4,7 +4,7 @@ mkdir ~/.pip
 cp /usr/local/etc/pip.conf ~/.pip/pip.conf
 
 #安装依赖
-yum -y install openssl openssl-devel zlib zlib-devel bzip2 bzip2-devel expat expat-devel gdbm gdbm-devel readline readline-devel sqlite sqlite-devel wget gcc gcc-c++ make
+yum -y install openssl openssl-devel libffi-devel zlib zlib-devel bzip2 bzip2-devel expat expat-devel gdbm gdbm-devel readline readline-devel sqlite sqlite-devel wget gcc gcc-c++ make
 
 #选择文件夹
 cd /usr/local
